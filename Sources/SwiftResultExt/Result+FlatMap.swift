@@ -1,3 +1,4 @@
+import Foundation
 extension Result {
     /// Transforms the success value with a closure returning a `Result` of a potentially different failure type.
     @inlinable

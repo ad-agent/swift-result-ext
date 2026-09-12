@@ -1,3 +1,4 @@
+import Foundation
 /// Validation helpers for Result chains.
 extension Result where Failure == any Error {
     public func validate(_ predicate: (Success) throws -> Bool, or error: any Error) -> Result<Success, any Error> {

@@ -1,3 +1,4 @@
+import Foundation
 /// Recovery extensions for Result types.
 extension Result {
     /// Attempt to recover from a failure using a fallback operation.

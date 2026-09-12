@@ -1,3 +1,4 @@
+import Foundation
 extension Result {
     /// Asynchronously transforms the success value using an async throwing closure.
     @inlinable

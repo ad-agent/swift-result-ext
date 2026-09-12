@@ -1,3 +1,4 @@
+import Foundation
 /// Combines two Results into a tuple Result, returning the first encountered failure if either fails.
 public func zip<T, U, Failure: Error>(
     _ first: Result<T, Failure>,
