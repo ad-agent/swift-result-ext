@@ -1,0 +1,1 @@
+/// Sequence extensions for collecting Results.\nextension Sequence {\n    public func compactMapResults<S, F: Error>() -> [S] where Element == Result<S, F> {\n        compactMap { try? $0.get() }\n    }\n}
